@@ -4,16 +4,16 @@ body {
     line-height: 26px;
     font-family: "Muller", sans-serif;
     color: #222222;
-    background: white url(background.jpg);
+    background: #a80024;
 }
 
 .header {
     font-size: 200%;
     font-family: NEXT ART;
     color: white;
-    padding: 4%;
+    padding: 5%;
     text-align: end;
-    background: #4c75a3 url(head.png);
+    background: #a80024 url(head.png);
 }
 
 .photo {
@@ -43,6 +43,11 @@ body {
     background-color: rgba(255, 255, 255, 0.7);
 }
 
+.main2 {
+    background-color: rgba(255, 255, 255);
+
+}
+
 .h {
     font-size: 200%;
     padding-left: 15%;
@@ -64,17 +69,18 @@ li {
 
 .copyright {
     float: right;
-    color: black;
+    color: white;
     top: 50%;
     font-size: 12px;
     padding-right: 2%;
+
 }
 
 footer {
     background-color: #282828;
     color: white;
     display: block;
-    height: 23%;
+    height: 50%;
     left: 0;
     position: absolute;
     width: 100%;
@@ -108,7 +114,7 @@ h1 {
 
 table {
     width: 50%;
-    border-collapse: collapse;
+  border: 1px solid black;
     background-color: white;
 }
 
@@ -119,7 +125,7 @@ td {
 
 .rax {
     width: 25%;
-    border-collapse: collapse; 
+    border-collapse: collapse;
 }
 
 .zad {
@@ -130,24 +136,25 @@ h2 {
     font-family: Tahoma;
 }
 
-label{
+label {
     font-family: Minion Pro;
     font-size: 150%;
     color: black;
 }
 
-form{
+form {
     background-color: white;
     padding-left: 10%;
-    font-size:100%;
+    font-size: 100%;
 }
+
 .form {
- vertical-align: 25%;  
+    vertical-align: 25%;
 }
 
 textarea {
     padding-left: 20%;
-    
+
 }
 
 .kd {
@@ -161,5 +168,219 @@ textarea {
 }
 
 .fix {
-    color:white;
+    color: white;
+}
+
+.labs {
+    background-color: white;
+    padding: auto;
+    padding-left: auto;
+    font-size: 25px;
+    font-family: Minion Pro;
+    color: #a80024;
+}
+
+.h2 {
+    text-align: center;
+    font-family: Times New Roman;
+    color: #3700ff;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.p2 {
+    text-align: center;
+    font-family: Times New Roman;
+    font-size: 20px;
+    background-color: #00ffff;
+    text-indent: 20px;
+}
+
+b {
+    font-size: 25px;
+    font-family: arial;
+}
+
+i {
+    font-size: 27px;
+    font-family: Verdana;
+}
+
+.p3 {
+    font-family: Times New Roman;
+    font-size: 20px;
+    background-color: #fbff00;
+    text-align: end;
+    text-decoration: underline;
+
+}
+
+.p4 {
+    font-family: Tahoma;
+    font-size: 18px;
+    background-color: #c0c0c0;
+    text-align: end;
+}
+
+.h3 {
+    font-family: Times New Roman;
+    font-size: 30px;
+    color: #8d0083;
+}
+
+div {
+    text-align: end;
+}
+
+.p5 {
+    font-family: Tahoma;
+    font-size: 15px;
+}
+
+strong {
+    background-color: #ff00ff;
+    font-size: 30px;
+    color: black;
+}
+
+em1 {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+em2 {
+    text-decoration: underline;
+}
+
+.p6 {
+    text-align: center;
+    font-family: Tahoma;
+    font-size: 20px;
+}
+
+em3 {
+    font-size: 30px;
+}
+
+em4 {
+    color: #5222ff;
+    text-decoration: underline;
+}
+
+.p7 {
+    background-color: #c0c0c0;
+    text-align: center;
+    font-family: Times New Roman;
+    font-size: 20px;
+}
+
+i2 {
+    color: #3700ff;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+i3 {
+    color: #ff0000;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.p8 {
+    text-align: end;
+    font-weight: bold;
+    font-family: Tahoma;
+    font-size: 20px;
+}
+
+.p9 {
+    text-align: center;
+    font-family: Monotype Corsiva;
+    font-size: 30px;
+    font-style: italic;
+    text-decoration: line-through;
+    color: #3700ff;
+
+}
+
+
+
+.pole2 {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-family: Tahoma;
+    font-weight: bold;
+}
+
+.pole3 {
+    text-align: end;
+    background-color: #00ffff;
+    color: #3700ff;
+    font-size: 20px;
+    font-family: Verdana;
+    font-weight: bold;
+}
+
+table.workThree {
+    background-color: white;
+    width: 500px;
+}
+
+td.workThree {
+    border-style: double;
+    border: black solid 1px;
+}
+
+.fieldOne {
+    font-style: italic;
+    font-family: Monotype Corsiva;
+    font-weight: bold;
+}
+
+.fieldTwo {
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    font-family: Tahoma;
+    text-align: center;
+
+}
+
+.fieldThree {
+    color: blue;
+    background-color: cyan;
+    font-weight: bold;
+    text-align: end;
+    font-family: Verdana;
+}
+
+.fieldFour {
+    background-color: pink;
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: Arial;
+
+}
+
+.fieldFive {
+    background-color: yellow;
+    letter-spacing: 5px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Times New Roman;
+}
+
+.blueChild td:nth-of-type(2n-1) {
+    color: blue;
+    font-weight: bold;
+    font-family: Times New Roman;
+}
+
+.sup {
+    font-weight: bold;
+    font-family: Times New Roman;
 }
